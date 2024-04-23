@@ -35,7 +35,7 @@ const StopWatch = () => {
 	return (
 		<div className='p-4'>
 			<h1 className='font-bold text-4xl'>StopWatch</h1>
-			<h4 className='mt-6'>Time : {formatTime(time)}</h4>
+			<h4 className='mt-6'>Time: {formatTime(time)}</h4>
 			<div className='mt-6'>
 				<button
 					className='px-4 py-1 bg-slate-400 rounded-md mr-2'
